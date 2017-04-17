@@ -1,0 +1,231 @@
+* {
+	box-sizing: border-box;
+	position: relative;
+}
+
+body {	
+	background-image: url("../images/knitting250px.png");
+	width: 1160px;
+	color: #ddd6cf;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	display: flex;
+  	min-height: 100vh;
+  	flex-direction: column;
+}
+
+.content {
+	flex: 1;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+header {
+	height: 90px;
+	width: 100%;
+	background-color: white;
+	border-bottom: solid;
+	border-width: 4px;
+	border-color: #d0d0d0;
+}
+
+#myname {
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+	margin-top: 0;
+	margin-left: 100px;
+	color: white;
+	background-color: #4aaaa5;
+	padding: 30px;
+	width: 250px;
+}
+h1, h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+ul li {
+	display:inline;
+    margin-right: 20px;     
+    border-right: solid;
+    padding-right: 15px;
+    opacity: .6;
+  	}
+
+ul {
+	width: 420px;
+	color: #ddd6cf;
+	padding: 20px;
+	float: right;
+	text-align: center;
+	font-size: 20px;	
+	margin-top: 12px;
+}
+
+#noborder {
+	border-right: none;
+}
+
+section {
+	color: #666666;
+	width: 650px;
+	height: 360px;
+	float: left;
+	margin-left: 100px;
+	background-color: white;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.sectiontitle {
+	font-size: 30px;
+	color: #4aaaa5;
+	font-weight: bold;
+	/*changed width from 610px*/
+	width: 93%;
+	margin:auto;
+	padding: 20px;
+	border-bottom: solid;
+	border-color: #b8bdc4;
+	margin-bottom: 20px;
+}
+
+#pic {
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+p {
+	color: #9198a3;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+	margin-bottom: 1em;
+	line-height: 24px;
+}
+
+aside {
+	width: 270px;
+	float: right;
+	text-align: center;
+	background-color: white;
+	padding: 20px;
+	margin-right: 100px;
+	border-style: solid;
+	border-color: red;
+	margin-top: 40px;
+}
+
+#connect {
+	font-size: 22px;
+	font-weight: bold;
+	color: #4aaaa5;
+	border-bottom: solid;
+	border-color: #b8bdc4;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}
+
+.socialbox {
+	padding-right: 5px;
+}
+
+footer {
+	clear: both;
+	height: 90px;
+	width: 100%;
+	border-top: solid;
+	border-color: #4aaaa5;
+	background-color: #4d4f54;
+	border-width: 5px;
+	margin-top: 50px;
+	z-index: -1;
+}
+
+#copyright {
+	width: 400px;
+	margin:auto;
+	text-align: center;
+	color: #ededed;
+	padding-top: 33px;
+	font-size: 12px;	
+}
+
+.box {	
+	color: white;
+	width: 265px;
+	margin-left: 40px;
+	height:200px;
+	margin-top: 33px;
+	float: left;
+}
+
+#box1, #box2 {
+	margin-top: 13px;
+}
+
+#mainportfolio {
+	height: 805px;
+	color: #4aaaa5;
+	max-width: 650px;
+	float: left;
+	margin-left: 100px;
+	background-color: white;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.banner {
+	width: 100%;
+	height: 25%;
+	font-size: 20px;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding: 15px;
+	bottom: 65px;
+}
+
+#contact {
+	height: 585px;
+}
+
+form {
+	margin-left: 20px;
+	color: #666666;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.forminput {
+	color: #777777;
+	font-size: 20px;
+	width: 600px;
+	height: 40px;
+}
+
+#message {
+	height: 200px;
+}
+
+#submit {
+	background-color: #4aaaa5;
+	color: white;
+	height: 40px;
+	font-size: 20px;
+	width: 150px;
+	bottom: 10px;
+}
+
+#gif {
+	display: none;
+}
+
+.gif2 {
+	color: purple;	
+}
+
+span.gif2:hover #gif{
+	display: block;
+	top: 100px;
+}
