@@ -14,17 +14,19 @@
 	}
 	section {
 
-		width: 40%;
-		margin-left: 50px;
-		height: 460px;
+		width: 45%;
+		/*margin-left: 50px;*/
+		height: 620px;
 	}
 	
 	aside {
-		width: 30%;
+		width: 29%;
 		float: left;
-		margin-left: 20px;
+		margin-left: 30px;
 		background-color: blue;
 		}
+
+
 	#mainportfolio {
 		height: 1250px;
 	}
@@ -42,21 +44,30 @@
 		width: 100%;
 		margin: auto;
 	}
+	.content {
+		margin-top: 80px;
+	}
 	section {
-		width: 100%;
-		height: 360px;
+		margin-left: 10px;
+		width: 95%;
+		height: 400px;
 	}
 	aside {
-		width: 100%;
+		margin-left: 10px;
+		width: 95%;
 		float: left;
 		background-color: red;
+		margin-top: 0px;
+		text-align: left;
 	}
 
 }
 
 @media screen and (max-width: 640px) {
 	header {
+		position: static;
 		width: 640px;
+
 
 	}
 	#myname {
@@ -73,12 +84,25 @@
 		float: left;
 		height: 45px;
 		padding: 0 0;
+		margin-bottom: 0px;
 	}
 	ul li {
 		padding-left: 50px;
 		padding-right: 50px;
 	}
+	.content {
+		margin-left: 10px;
+		margin-top: 20px;
+	}
+	section {
+		margin-top: 0px;
+		width: 95%;
+		height: 500px;
+		margin-bottom: 20px;
+	}
 	aside{
 		background-color: green;
+		margin-top: 0px;
+		width: 95%;
 	}
 }

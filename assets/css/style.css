@@ -15,6 +15,7 @@ body {
 
 .content {
 	flex: 1;
+	margin-top: 100px;
 }
 
 a:link {
@@ -23,11 +24,13 @@ a:link {
 
 header {
 	height: 90px;
-	width: 100%;
+	width: 1160px;
 	background-color: white;
 	border-bottom: solid;
 	border-width: 4px;
 	border-color: #d0d0d0;
+	position: fixed;
+	z-index: 99;
 }
 
 #myname {
@@ -69,12 +72,13 @@ ul {
 section {
 	color: #666666;
 	width: 650px;
-	height: 360px;
+	height: 450px;
 	float: left;
 	margin-left: 100px;
 	background-color: white;
 	margin-bottom: 40px;
 	margin-top: 40px;
+	overflow: auto;
 }
 
 .sectiontitle {
@@ -219,6 +223,7 @@ form {
 
 #gif {
 	display: none;
+	position: absolute;
 }
 
 .gif2 {
