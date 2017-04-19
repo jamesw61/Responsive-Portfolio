@@ -2,24 +2,30 @@
 	nav {
 		margin-right: 25px;
 	}
-}
 
-@media screen and (max-width: 768px) {
 	.sidebar {
 		float: left;
 		max-width: none;
 	}
-	#logo {
-		margin-left: 15px;
-	}
+
 	.main-section {
 		max-width: none;
 		padding: 60px;
+		color: green;
 	}	
+
 	#main-container {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	#logo {
+		margin-left: 15px;
+	}
+	
 }
 
 @media screen and (max-width: 640px) {
@@ -44,9 +50,7 @@
 		margin-top: 0px;
 		padding-top: 20px;
 	}
-	.main-section {
-		padding: 30px;
-	}
+	
 	.work {
 		width: 98%;
 	}
