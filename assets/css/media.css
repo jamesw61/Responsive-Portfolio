@@ -5,19 +5,25 @@
 
 	.sidebar {
 		float: left;
-		max-width: none;
+		margin-left: 40px;
+		margin-bottom: 30px;
 	}
 
 	.main-section {
-		max-width: none;
+		max-width: 520px;
 		padding: 60px;
-		color: green;
+		margin-left: 40px;
 	}	
 
 	#main-container {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+
+	.work {
+		width: 98%;
+	}
+	
 }
 
 @media screen and (max-width: 768px) {
@@ -25,7 +31,19 @@
 	#logo {
 		margin-left: 15px;
 	}
+
+	.main-section, .sidebar {
+		max-width: 100%;
+		margin-left: 0px;
+	}
 	
+	.work {
+		width: 45%;
+	}
+
+	.work:nth-child(odd) {
+		float: right;
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -49,10 +67,8 @@
 	#main-container {
 		margin-top: 0px;
 		padding-top: 20px;
-	}
-	
+	}	
 	.work {
 		width: 98%;
-	}
-	
+	}	
 }
